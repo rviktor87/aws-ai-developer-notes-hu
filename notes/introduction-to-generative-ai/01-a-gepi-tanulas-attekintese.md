@@ -103,56 +103,73 @@ Nem egyetlen ok, hanem több tényező együttes hatása tette lehetővé a gyor
 
 ## Vizsgára érdemes megjegyezni
 
-- A generatív [AI] az [AI], az [ML] és a deep learning hierarchiáján belül helyezkedik el.
-- A hagyományos [ML] fő célja tipikusan a **mintafelismerés (pattern recognition) és előrejelzés (prediction)**; a generatív [AI]-é az **új tartalom létrehozása (content generation)**.
-- Az [FM]-ek nagy adatmennyiségen előtanított, több célra adaptálható modellek.
-- Az [LLM] az [FM]-ek egyik típusa, nem az [FM] szinonimája.
-- A Transformer architecture áttörése, a számítási erőforrások, a szakértői csapatok és a beruházási hajlandóság együtt gyorsították fel a generatív [AI] fejlődését.
+| Magyar | English |
+|---|---|
+| A generatív [AI] az [AI], az [ML] és a mélytanulás (deep learning, [DL]) hierarchiáján belül helyezkedik el. | Generative [AI] sits within the hierarchy of [AI], [ML], and deep learning. |
+| A hagyományos [ML] fő célja jellemzően a mintafelismerés (pattern recognition) és az előrejelzés (prediction). A generatív [AI] új tartalmat hoz létre (content generation). | Traditional [ML] typically focuses on pattern recognition and prediction. Generative [AI] creates new content. |
+| Az [FM]-ek nagy adatmennyiségen előtanított, több célra adaptálható modellek. | [FM]s are pretrained on large amounts of data and can be adapted to multiple tasks. |
+| Az [LLM] az [FM]-ek egyik típusa, és a két fogalom jelentése nem azonos. | An [LLM] is a type of [FM], and the two terms do not mean the same thing. |
+| A Transformer architektúra (Transformer architecture), a számítási erőforrások, a szakértői csapatok és a kutatási beruházások együtt gyorsították fel a generatív [AI] fejlődését. | The Transformer architecture, compute resources, specialized teams, and research investment accelerated the development of generative [AI]. |
 
 ## Gyors önellenőrzés
 
-**1. Mi a jellemzők és a címkék szerepe egy tanító adathalmazban?**
+**1. Mi a jellemzők és a címkék szerepe egy tanító adathalmazban?** \
+*What are the roles of features and labels in a training dataset?*
 
 <details>
-<summary>Válasz</summary>
+<summary>Válasz (Answer)</summary>
 
-A jellemzők (features) a modell bemeneti adatai. A címkék (labels) az elvárt kimenetek, amelyek alapján a modell megtanulja a bemenet és a kívánt eredmény közötti kapcsolatot.
+**Magyar:** A jellemzők (features) a modell bemeneti adatai. A címkék (labels) az elvárt kimenetek, amelyek alapján a modell megtanulja a bemenet és a kívánt eredmény közötti kapcsolatot.
+
+**English:** Features are the model inputs. Labels are the expected outputs that allow the model to learn the relationship between an input and the desired result.
 
 </details>
 
-**2. Hogyan viszonyul egymáshoz az [AI], az [ML], a deep learning és a generatív [AI]?**
+**2. Hogyan viszonyul egymáshoz az [AI], az [ML], a mélytanulás (deep learning, [DL]) és a generatív [AI]?** \
+*How are [AI], [ML], deep learning, and generative [AI] related?*
 
 <details>
-<summary>Válasz</summary>
+<summary>Válasz (Answer)</summary>
 
-Az [AI] a legtágabb terület. Ezen belül helyezkedik el az [ML], azon belül pedig a mélytanulás (deep learning, [DL]). A generatív [AI] általában [DL]-architektúrákra és alapmodellekre épül.
+**Magyar:** Az [AI] a legtágabb terület. Ezen belül helyezkedik el az [ML], azon belül pedig a [DL]. A generatív [AI] általában [DL]-architektúrákra és alapmodellekre épül.
+
+**English:** [AI] is the broadest field. [ML] is a subset of [AI], and deep learning is a subset of [ML]. Generative [AI] usually relies on deep learning architectures and foundation models.
 
 </details>
 
-**3. Miben tér el egy alapmodell a hagyományos, egyetlen feladatra tanított modelltől?**
+**3. Miben tér el egy alapmodell (foundation model, [FM]) a hagyományos, egyetlen feladatra tanított modelltől?** \
+*How does an [FM] differ from a traditional model trained for a single task?*
 
 <details>
-<summary>Válasz</summary>
+<summary>Válasz (Answer)</summary>
 
-A hagyományos modell általában egy konkrét feladatra készül, és gyakran feladatspecifikus, címkézett adatokat igényel. Az alapmodell (foundation model, [FM]) nagy adatmennyiségen végzett előtanítás után több feladatra is használható, például promptolással vagy finomhangolással (fine-tuning).
+**Magyar:** A hagyományos modell általában egy konkrét feladatra készül, és gyakran feladatspecifikus, címkézett adatokat igényel. Az [FM] nagy adatmennyiségen végzett előtanítás után több feladatra is használható, például promptolással vagy finomhangolással (fine-tuning).
+
+**English:** A traditional model is usually built for one task and often requires task-specific labeled data. An [FM] is pretrained on a large amount of data and can be used for multiple tasks through prompting or fine-tuning.
 
 </details>
 
-**4. Miért nevezhető az [LLM] alapmodellnek, és hogyan állít elő szöveget?**
+**4. Miért nevezhető az [LLM] alapmodellnek (foundation model), és hogyan állít elő szöveget?** \
+*Why is an [LLM] considered an [FM], and how does it generate text?*
 
 <details>
-<summary>Válasz</summary>
+<summary>Válasz (Answer)</summary>
 
-Az [LLM] nagy mennyiségű nyelvi adaton előtanított, többféle nyelvi feladatra használható modell, ezért az [FM]-ek egyik típusa. A szöveget a következő token környezet alapján történő előrejelzésével, majd a folyamat ismétlésével állítja elő.
+**Magyar:** Az [LLM] nagy mennyiségű nyelvi adaton előtanított, többféle nyelvi feladatra használható modell, ezért az [FM]-ek egyik típusa. A szöveget a következő token környezet alapján történő előrejelzésével, majd a folyamat ismétlésével állítja elő.
+
+**English:** An [LLM] is pretrained on large amounts of language data and can perform different language tasks, making it a type of [FM]. It generates text by repeatedly predicting the next token from the available context.
 
 </details>
 
-**5. Mely tényezők tették lehetővé a generatív [AI] közelmúltbeli gyors fejlődését?**
+**5. Mely tényezők tették lehetővé a generatív [AI] közelmúltbeli gyors fejlődését?** \
+*Which factors enabled the recent rapid development of generative [AI]?*
 
 <details>
-<summary>Válasz</summary>
+<summary>Válasz (Answer)</summary>
 
-A 2017-ben bemutatott Transformer architektúra, a nagyobb számítási kapacitás, a specializált kutatói és mérnöki csapatok, valamint a nagyszabású kutatások finanszírozása együtt gyorsította fel a fejlődést.
+**Magyar:** A 2017-ben bemutatott Transformer architektúra, a nagyobb számítási kapacitás, a specializált kutatói és mérnöki csapatok, valamint a nagyszabású kutatások finanszírozása együtt gyorsította fel a fejlődést.
+
+**English:** The Transformer architecture introduced in 2017, greater compute capacity, specialized research and engineering teams, and funding for ambitious research collectively accelerated development.
 
 </details>
 
