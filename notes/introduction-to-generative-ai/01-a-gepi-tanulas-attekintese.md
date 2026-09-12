@@ -107,15 +107,54 @@ Nem egyetlen ok, hanem több tényező együttes hatása tette lehetővé a gyor
 - A hagyományos [ML] fő célja tipikusan a **mintafelismerés (pattern recognition) és előrejelzés (prediction)**; a generatív [AI]-é az **új tartalom létrehozása (content generation)**.
 - Az [FM]-ek nagy adatmennyiségen előtanított, több célra adaptálható modellek.
 - Az [LLM] az [FM]-ek egyik típusa, nem az [FM] szinonimája.
-- A Transformer áttörése, a számítási erőforrások, a szakértői csapatok és a beruházási hajlandóság együtt gyorsították fel a generatív [AI] fejlődését.
+- A Transformer architecture áttörése, a számítási erőforrások, a szakértői csapatok és a beruházási hajlandóság együtt gyorsították fel a generatív [AI] fejlődését.
 
 ## Gyors önellenőrzés
 
-1. Mi a jellemzők és a címkék szerepe egy tanító adathalmazban?
-2. Hogyan viszonyul egymáshoz az [AI], az [ML], a deep learning és a generatív [AI]?
-3. Miben tér el egy alapmodell a hagyományos, egyetlen feladatra tanított modelltől?
-4. Miért nevezhető az [LLM] alapmodellnek, és hogyan állít elő szöveget?
-5. Mely tényezők tették lehetővé a generatív [AI] közelmúltbeli gyors fejlődését?
+**1. Mi a jellemzők és a címkék szerepe egy tanító adathalmazban?**
+
+<details>
+<summary>Válasz</summary>
+
+A jellemzők (features) a modell bemeneti adatai. A címkék (labels) az elvárt kimenetek, amelyek alapján a modell megtanulja a bemenet és a kívánt eredmény közötti kapcsolatot.
+
+</details>
+
+**2. Hogyan viszonyul egymáshoz az [AI], az [ML], a deep learning és a generatív [AI]?**
+
+<details>
+<summary>Válasz</summary>
+
+Az [AI] a legtágabb terület. Ezen belül helyezkedik el az [ML], azon belül pedig a mélytanulás (deep learning, [DL]). A generatív [AI] általában [DL]-architektúrákra és alapmodellekre épül.
+
+</details>
+
+**3. Miben tér el egy alapmodell a hagyományos, egyetlen feladatra tanított modelltől?**
+
+<details>
+<summary>Válasz</summary>
+
+A hagyományos modell általában egy konkrét feladatra készül, és gyakran feladatspecifikus, címkézett adatokat igényel. Az alapmodell (foundation model, [FM]) nagy adatmennyiségen végzett előtanítás után több feladatra is használható, például promptolással vagy finomhangolással (fine-tuning).
+
+</details>
+
+**4. Miért nevezhető az [LLM] alapmodellnek, és hogyan állít elő szöveget?**
+
+<details>
+<summary>Válasz</summary>
+
+Az [LLM] nagy mennyiségű nyelvi adaton előtanított, többféle nyelvi feladatra használható modell, ezért az [FM]-ek egyik típusa. A szöveget a következő token környezet alapján történő előrejelzésével, majd a folyamat ismétlésével állítja elő.
+
+</details>
+
+**5. Mely tényezők tették lehetővé a generatív [AI] közelmúltbeli gyors fejlődését?**
+
+<details>
+<summary>Válasz</summary>
+
+A 2017-ben bemutatott Transformer architektúra, a nagyobb számítási kapacitás, a specializált kutatói és mérnöki csapatok, valamint a nagyszabású kutatások finanszírozása együtt gyorsította fel a fejlődést.
+
+</details>
 
 [AWS]: ../roviditesek.md#aws "Amazon Web Services"
 [AI]: ../roviditesek.md#ai "Artificial intelligence"
