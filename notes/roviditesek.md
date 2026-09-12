@@ -1,19 +1,41 @@
 # Rövidítésszótár
 
-A jegyzetekben a rövidítések fölé vitt egérmutató megjeleníti az angol feloldást. Ez a fájl egy helyen gyűjti össze a használt rövidítéseket és a magyar jelentésüket.
+A jegyzetekben a rövidítések fölé vitt egérmutató megjeleníti az angol feloldást. A rövidítésre kattintva a szótár megfelelő bejegyzése nyílik meg.
 
-| Rövidítés | Angol kifejezés | Magyar jelentés |
-|---|---|---|
-| <abbr title="Amazon Web Services">AWS</abbr> | Amazon Web Services | Amazon felhőszolgáltatási platformja |
-| <abbr title="Artificial intelligence">AI</abbr> | Artificial intelligence | Mesterséges intelligencia |
-| <abbr title="Machine learning">ML</abbr> | Machine learning | Gépi tanulás |
-| <abbr title="Deep learning">DL</abbr> | Deep learning | Mélytanulás |
-| <abbr title="Foundation model">FM</abbr> | Foundation model | Alapmodell |
-| <abbr title="Large language model">LLM</abbr> | Large language model | Nagy nyelvi modell |
+## AWS
+
+- Angol kifejezés: Amazon Web Services
+- Magyar jelentés: az Amazon felhőszolgáltatási platformja
+
+## AI
+
+- Angol kifejezés: Artificial intelligence
+- Magyar jelentés: mesterséges intelligencia
+
+## ML
+
+- Angol kifejezés: Machine learning
+- Magyar jelentés: gépi tanulás
+
+## DL
+
+- Angol kifejezés: Deep learning
+- Magyar jelentés: mélytanulás
+
+## FM
+
+- Angol kifejezés: Foundation model
+- Magyar jelentés: alapmodell
+
+## LLM
+
+- Angol kifejezés: Large language model
+- Magyar jelentés: nagy nyelvi modell
 
 ## Használat Markdown-fájlban
 
-```html
-<abbr title="Artificial intelligence">AI</abbr>
-```
+```markdown
+A generatív [AI] új tartalmat állít elő.
 
+[AI]: ../roviditesek.md#ai "Artificial intelligence"
+```

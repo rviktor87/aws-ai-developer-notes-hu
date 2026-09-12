@@ -1,18 +1,18 @@
 # A gépi tanulás áttekintése
 
-> Kurzus: *Introduction to Generative <abbr title="Artificial intelligence">AI</abbr> - Art of the Possible*  
-> Lecke: *Overview of <abbr title="Machine learning">ML</abbr>* (2/10)  
-> Forrás: [<abbr title="Amazon Web Services">AWS</abbr> Skill Builder - kurzusadatlap](https://skillbuilder.aws/learn/ZEVZZ1D4AS/introduction-to-generative-ai--art-of-the-possible/Y7MTGJCW1U)  
+> Kurzus: *Introduction to Generative [AI] - Art of the Possible* \
+> Lecke: *Overview of [ML]* (2/10) \
+> Forrás: [AWS] [Skill Builder - kurzusadatlap](https://skillbuilder.aws/learn/ZEVZZ1D4AS/introduction-to-generative-ai--art-of-the-possible/Y7MTGJCW1U) \
 > Jegyzet készült: 2026. szeptember 12.
 > Rövidítések: [rövidítésszótár](../roviditesek.md)
 
 ## Röviden
 
-A generatív <abbr title="Artificial intelligence">AI</abbr> a gépi tanulás (machine learning, <abbr title="Machine learning">ML</abbr>) egyik ága. Felhasználói bemenet alapján új tartalmat, például szöveget, képet, programkódot, hangot vagy videót képes létrehozni. A hagyományos <abbr title="Machine learning">ML</abbr>-megoldások jellemzően egy konkrét feladatra készülnek, míg a nagy mennyiségű adaton előtanított alapmodellek (foundation models, <abbr title="Foundation models">FMs</abbr>) több különböző feladathoz is adaptálhatók, gyakran természetes nyelvű utasításokkal.
+A generatív [AI] a gépi tanulás (machine learning, [ML]) egyik ága. Felhasználói bemenet alapján új tartalmat, például szöveget, képet, programkódot, hangot vagy videót képes létrehozni. A hagyományos [ML]-megoldások jellemzően egy konkrét feladatra készülnek, míg a nagy mennyiségű adaton előtanított alapmodellek (foundation models, [FMs]) több különböző feladathoz is adaptálhatók, gyakran természetes nyelvű utasításokkal.
 
 ## Hogyan működik a gépi tanulás?
 
-A gépi tanulás (machine learning, <abbr title="Machine learning">ML</abbr>) múltbeli adatok mintázatait tanulja meg, majd ezek alapján korábban nem látott adatokra ad előrejelzést. Az eredmény üzleti döntések vagy műveletek alapja lehet.
+A gépi tanulás (machine learning, [ML]) múltbeli adatok mintázatait tanulja meg, majd ezek alapján korábban nem látott adatokra ad előrejelzést. Az eredmény üzleti döntések vagy műveletek alapja lehet.
 
 A leegyszerűsített folyamat:
 
@@ -26,57 +26,57 @@ A leegyszerűsített folyamat:
 adathalmaz -> mintázatok megtanulása -> előrejelzés új adatra -> üzleti művelet
 ```
 
-## <abbr title="Artificial intelligence">AI</abbr>, <abbr title="Machine learning">ML</abbr>, deep learning és generatív <abbr title="Artificial intelligence">AI</abbr>
+## [AI], [ML], deep learning és generatív [AI]
 
 A fogalmak egymásba ágyazódnak:
 
-1. mesterséges intelligencia (artificial intelligence, <abbr title="Artificial intelligence">AI</abbr>)
-2. gépi tanulás (machine learning, <abbr title="Machine learning">ML</abbr>)
-3. mélytanulás (deep learning, <abbr title="Deep learning">DL</abbr>)
-4. generatív <abbr title="Artificial intelligence">AI</abbr>
+1. mesterséges intelligencia (artificial intelligence, [AI])
+2. gépi tanulás (machine learning, [ML])
+3. mélytanulás (deep learning, [DL])
+4. generatív [AI]
 
-- **<abbr title="Artificial intelligence">AI</abbr>:** a legtágabb terület; intelligens viselkedést megvalósító rendszerek gyűjtőfogalma.
-- **<abbr title="Machine learning">ML</abbr>:** adatokból tanul mintázatokat, amelyekkel előrejelzéseket készít.
-- **Mélytanulás (deep learning, <abbr title="Deep learning">DL</abbr>):** neuronok és szinapszisok működéséhez lazán hasonló, többrétegű neurális hálózatokra (neural networks) épül.
-- **Generatív <abbr title="Artificial intelligence">AI</abbr>:** a deep learningre építve új tartalmat hoz létre.
+- **[AI]:** a legtágabb terület; intelligens viselkedést megvalósító rendszerek gyűjtőfogalma.
+- **[ML]:** adatokból tanul mintázatokat, amelyekkel előrejelzéseket készít.
+- **Mélytanulás (deep learning, [DL]):** neuronok és szinapszisok működéséhez lazán hasonló, többrétegű neurális hálózatokra (neural networks) épül.
+- **Generatív [AI]:** a deep learningre építve új tartalmat hoz létre.
 
-Példák az <abbr title="Amazon Web Services">AWS</abbr> világából:
+Példák az [AWS] világából:
 
 - Az **Amazon Rekognition** deep learning segítségével képeket, valamint tárolt és streamelt videókat elemez.
-- Az **Amazon Q Developer** generatív <abbr title="Artificial intelligence">AI</abbr> használatával, megjegyzésekből és a meglévő kódból kiindulva valós időben ad kódjavaslatokat.
+- Az **Amazon Q Developer** generatív [AI] használatával, megjegyzésekből és a meglévő kódból kiindulva valós időben ad kódjavaslatokat.
 
 ## Alapmodellek és nagy nyelvi modellek
 
-Az **alapmodell (foundation model, <abbr title="Foundation model">FM</abbr>)** internetes léptékű adatmennyiségen előtanított, nagy méretű modell. Nem feltétlenül egyetlen feladatra készül: ugyanaz a modell több célra is adaptálható.
+Az **alapmodell (foundation model, [FM])** internetes léptékű adatmennyiségen előtanított, nagy méretű modell. Nem feltétlenül egyetlen feladatra készül: ugyanaz a modell több célra is adaptálható.
 
-Az <abbr title="Foundation model">FM</abbr>-ek többféle modalitással (modality) dolgozhatnak:
+Az [FM]-ek többféle modalitással (modality) dolgozhatnak:
 
 - szöveg,
 - kép,
 - programkód,
 - hang.
 
-A **nagy nyelvi modell (large language model, <abbr title="Large language model">LLM</abbr>)** az <abbr title="Foundation model">FM</abbr>-ek egyik típusa. A mondat szavainak helyét és szövegkörnyezetét figyelembe véve a következő szót, pontosabban tokent jelzi előre. Ennek ismétlésével hoz létre új tartalmat.
+A **nagy nyelvi modell (large language model, [LLM])** az [FM]-ek egyik típusa. A mondat szavainak helyét és szövegkörnyezetét figyelembe véve a következő szót, pontosabban tokent jelzi előre. Ennek ismétlésével hoz létre új tartalmat.
 
-### Hagyományos <abbr title="Machine learning">ML</abbr> és <abbr title="Foundation model">FM</abbr>-ek összevetése
+### Hagyományos [ML] és [FM]-ek összevetése
 
-| Szempont | Hagyományos <abbr title="Machine learning">ML</abbr> | <abbr title="Foundation model">FM</abbr>-re épülő generatív <abbr title="Artificial intelligence">AI</abbr> |
+| Szempont | Hagyományos [ML] | [FM]-re épülő generatív [AI] |
 |---|---|---|
 | Tipikus cél | Egy jól körülhatárolt feladat | Többféle feladat |
 | Tanítás | Feladatspecifikus, gyakran címkézett adat | Nagy adatmennyiségen végzett előtanítás, majd adaptálás |
 | Új feladat | Gyakran új modell vagy újratanítás kell | Sokszor prompttal vagy további finomhangolással (fine-tuning) megoldható |
 | Kimenet | Előrejelzés, osztályozás | Új szöveg, kép, kód, hang stb. |
 
-## Az <abbr title="Machine learning">ML</abbr> szerepe az Amazonnál
+## Az [ML] szerepe az Amazonnál
 
-Az Amazon több mint húsz éve használ <abbr title="Artificial intelligence">AI</abbr>- és <abbr title="Machine learning">ML</abbr>-megoldásokat. A leckében szereplő példák:
+Az Amazon több mint húsz éve használ [AI]- és [ML]-megoldásokat. A leckében szereplő példák:
 
 - személyre szabott termékajánlások az Amazon webáruházban;
 - robotok árumozgatási útvonalainak optimalizálása a logisztikai központokban;
 - ellátási lánc (supply chain), kereslet-előrejelzés (demand forecasting) és kapacitástervezés (capacity planning);
 - deep learning az Amazon Prime Air drónos kézbesítésében;
 - számítógépes látás (computer vision) az Amazon Go üzletek pénztár nélküli működésében;
-- több mint harminc <abbr title="Machine learning">ML</abbr>-rendszer együttműködése az Alexában.
+- több mint harminc [ML]-rendszer együttműködése az Alexában.
 
 ### Fontosabb mérföldkövek
 
@@ -90,9 +90,9 @@ Az Amazon több mint húsz éve használ <abbr title="Artificial intelligence">A
 | 2018 | Elindul az Amazon Go. |
 | 2020 | Az Amazon leányvállalata, a Zoox bemutatja autonóm robotaxiját. |
 | 2023 | Elindul az Amazon CodeWhisperer, és bejelentik az Amazon Bedrockot. |
-| 2024 | Megjelennek a generatív <abbr title="Artificial intelligence">AI</abbr>-ra épülő Amazon Q asszisztensek, köztük az Amazon Q Developer és az Amazon Q Business. |
+| 2024 | Megjelennek a generatív [AI]-ra épülő Amazon Q asszisztensek, köztük az Amazon Q Developer és az Amazon Q Business. |
 
-## Miért éppen most tört előre a generatív <abbr title="Artificial intelligence">AI</abbr>?
+## Miért éppen most tört előre a generatív [AI]?
 
 Nem egyetlen ok, hanem több tényező együttes hatása tette lehetővé a gyors fejlődést:
 
@@ -103,16 +103,24 @@ Nem egyetlen ok, hanem több tényező együttes hatása tette lehetővé a gyor
 
 ## Vizsgára érdemes megjegyezni
 
-- A generatív <abbr title="Artificial intelligence">AI</abbr> az <abbr title="Artificial intelligence">AI</abbr>, az <abbr title="Machine learning">ML</abbr> és a deep learning hierarchiáján belül helyezkedik el.
-- A hagyományos <abbr title="Machine learning">ML</abbr> fő célja tipikusan a **mintafelismerés (pattern recognition) és előrejelzés (prediction)**; a generatív <abbr title="Artificial intelligence">AI</abbr>-é az **új tartalom létrehozása (content generation)**.
-- Az <abbr title="Foundation model">FM</abbr>-ek nagy adatmennyiségen előtanított, több célra adaptálható modellek.
-- Az <abbr title="Large language model">LLM</abbr> az <abbr title="Foundation model">FM</abbr>-ek egyik típusa, nem az <abbr title="Foundation model">FM</abbr> szinonimája.
-- A Transformer áttörése, a számítási erőforrások, a szakértői csapatok és a beruházási hajlandóság együtt gyorsították fel a generatív <abbr title="Artificial intelligence">AI</abbr> fejlődését.
+- A generatív [AI] az [AI], az [ML] és a deep learning hierarchiáján belül helyezkedik el.
+- A hagyományos [ML] fő célja tipikusan a **mintafelismerés (pattern recognition) és előrejelzés (prediction)**; a generatív [AI]-é az **új tartalom létrehozása (content generation)**.
+- Az [FM]-ek nagy adatmennyiségen előtanított, több célra adaptálható modellek.
+- Az [LLM] az [FM]-ek egyik típusa, nem az [FM] szinonimája.
+- A Transformer áttörése, a számítási erőforrások, a szakértői csapatok és a beruházási hajlandóság együtt gyorsították fel a generatív [AI] fejlődését.
 
 ## Gyors önellenőrzés
 
 1. Mi a jellemzők és a címkék szerepe egy tanító adathalmazban?
-2. Hogyan viszonyul egymáshoz az <abbr title="Artificial intelligence">AI</abbr>, az <abbr title="Machine learning">ML</abbr>, a deep learning és a generatív <abbr title="Artificial intelligence">AI</abbr>?
+2. Hogyan viszonyul egymáshoz az [AI], az [ML], a deep learning és a generatív [AI]?
 3. Miben tér el egy alapmodell a hagyományos, egyetlen feladatra tanított modelltől?
-4. Miért nevezhető az <abbr title="Large language model">LLM</abbr> alapmodellnek, és hogyan állít elő szöveget?
-5. Mely tényezők tették lehetővé a generatív <abbr title="Artificial intelligence">AI</abbr> közelmúltbeli gyors fejlődését?
+4. Miért nevezhető az [LLM] alapmodellnek, és hogyan állít elő szöveget?
+5. Mely tényezők tették lehetővé a generatív [AI] közelmúltbeli gyors fejlődését?
+
+[AWS]: ../roviditesek.md#aws "Amazon Web Services"
+[AI]: ../roviditesek.md#ai "Artificial intelligence"
+[ML]: ../roviditesek.md#ml "Machine learning"
+[DL]: ../roviditesek.md#dl "Deep learning"
+[FM]: ../roviditesek.md#fm "Foundation model"
+[FMs]: ../roviditesek.md#fm "Foundation models"
+[LLM]: ../roviditesek.md#llm "Large language model"
