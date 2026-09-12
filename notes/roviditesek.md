@@ -57,6 +57,11 @@ A jegyzetekben a rövidítések fölé vitt egérmutató megjeleníti az angol f
 - Angol kifejezés: Integrated development environment
 - Magyar jelentés: integrált fejlesztői környezet
 
+## S3
+
+- Angol kifejezés: Amazon Simple Storage Service
+- Magyar jelentés: az Amazon objektumtárolási szolgáltatása
+
 ## Használat Markdown-fájlban
 
 ```markdown
