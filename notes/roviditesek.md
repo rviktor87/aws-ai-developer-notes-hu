@@ -72,6 +72,11 @@ A jegyzetekben a rövidítések fölé vitt egérmutató megjeleníti az angol f
 - Angol kifejezés: Retrieval-Augmented Generation
 - Magyar jelentés: visszakereséssel kiegészített generálás
 
+## COIN
+
+- Angol kifejezés: Contract Intelligence
+- Magyar jelentés: szerződésintelligencia
+
 ## Használat Markdown-fájlban
 
 ```markdown
