@@ -47,6 +47,16 @@ A jegyzetekben a rövidítések fölé vitt egérmutató megjeleníti az angol f
 - Angol kifejezés: Computed tomography
 - Magyar jelentés: komputertomográfia
 
+## API
+
+- Angol kifejezés: Application programming interface
+- Magyar jelentés: alkalmazásprogramozási felület
+
+## IDE
+
+- Angol kifejezés: Integrated development environment
+- Magyar jelentés: integrált fejlesztői környezet
+
 ## Használat Markdown-fájlban
 
 ```markdown
