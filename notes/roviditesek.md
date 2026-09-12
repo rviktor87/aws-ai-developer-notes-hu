@@ -67,6 +67,11 @@ A jegyzetekben a rövidítések fölé vitt egérmutató megjeleníti az angol f
 - Angol kifejezés: Graphics processing unit
 - Magyar jelentés: grafikus feldolgozóegység
 
+## RAG
+
+- Angol kifejezés: Retrieval-Augmented Generation
+- Magyar jelentés: visszakereséssel kiegészített generálás
+
 ## Használat Markdown-fájlban
 
 ```markdown
