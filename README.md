@@ -22,6 +22,7 @@ A rövidítések feloldása megjelenik, ha föléjük viszed az egeret. A teljes
 ## Planning a Generative [AI] Project
 
 1. Generatív [AI] alapok: [jegyzet](notes/planning-a-generative-ai-project/01-generativ-ai-alapok.md)
+2. Generatív [AI] a gyakorlatban: [jegyzet](notes/planning-a-generative-ai-project/02-generativ-ai-a-gyakorlatban.md)
 
 [AWS]: notes/roviditesek.md#aws "Amazon Web Services"
 [AI]: notes/roviditesek.md#ai "Artificial intelligence"
