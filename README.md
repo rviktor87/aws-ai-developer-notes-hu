@@ -19,5 +19,9 @@ A rövidítések feloldása megjelenik, ha föléjük viszed az egeret. A teljes
 6. Generatív [AI] kisvállalkozásoknál: [jegyzet](notes/introduction-to-generative-ai/06-generativ-ai-kisvallalkozasoknal.md)
 7. A generatív [AI] etikai kérdései: [jegyzet](notes/introduction-to-generative-ai/07-a-generativ-ai-etikai-kerdesei.md)
 
+## Planning a Generative [AI] Project
+
+1. Generatív [AI] alapok: [jegyzet](notes/planning-a-generative-ai-project/01-generativ-ai-alapok.md)
+
 [AWS]: notes/roviditesek.md#aws "Amazon Web Services"
 [AI]: notes/roviditesek.md#ai "Artificial intelligence"

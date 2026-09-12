@@ -62,6 +62,11 @@ A jegyzetekben a rövidítések fölé vitt egérmutató megjeleníti az angol f
 - Angol kifejezés: Amazon Simple Storage Service
 - Magyar jelentés: az Amazon objektumtárolási szolgáltatása
 
+## GPU
+
+- Angol kifejezés: Graphics processing unit
+- Magyar jelentés: grafikus feldolgozóegység
+
 ## Használat Markdown-fájlban
 
 ```markdown
