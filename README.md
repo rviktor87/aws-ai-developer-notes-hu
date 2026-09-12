@@ -26,6 +26,7 @@ A rövidítések feloldása megjelenik, ha föléjük viszed az egeret. A teljes
 3. Generatív [AI] kontextus: [jegyzet](notes/planning-a-generative-ai-project/03-generativ-ai-kontextus.md)
 4. A generatív [AI]-projekt tervezésének lépései: [jegyzet](notes/planning-a-generative-ai-project/04-a-generativ-ai-projekt-tervezesenek-lepesei.md)
 5. Generatív [AI] különböző iparágakban: [jegyzet](notes/planning-a-generative-ai-project/05-generativ-ai-kulonbozo-iparagakban.md)
+6. Etikai szempontok és kockázatcsökkentés: [jegyzet](notes/planning-a-generative-ai-project/06-etikai-szempontok-es-kockazatcsokkentes.md)
 
 [AWS]: notes/roviditesek.md#aws "Amazon Web Services"
 [AI]: notes/roviditesek.md#ai "Artificial intelligence"
