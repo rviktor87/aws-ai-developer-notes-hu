@@ -32,6 +32,21 @@ A jegyzetekben a rövidítések fölé vitt egérmutató megjeleníti az angol f
 - Angol kifejezés: Large language model
 - Magyar jelentés: nagy nyelvi modell
 
+## NLP
+
+- Angol kifejezés: Natural language processing
+- Magyar jelentés: természetesnyelv-feldolgozás
+
+## MRI
+
+- Angol kifejezés: Magnetic resonance imaging
+- Magyar jelentés: mágnesesrezonancia-képalkotás
+
+## CT
+
+- Angol kifejezés: Computed tomography
+- Magyar jelentés: komputertomográfia
+
 ## Használat Markdown-fájlban
 
 ```markdown
