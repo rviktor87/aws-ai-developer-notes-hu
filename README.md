@@ -1,6 +1,6 @@
 # <abbr title="Amazon Web Services">AWS</abbr> <abbr title="Artificial intelligence">AI</abbr> Developer jegyzetek
 
-Magyar nyelvű, saját megfogalmazású jegyzetek az <abbr title="Amazon Web Services">AWS</abbr> <abbr title="Artificial intelligence">AI</abbr> Developer tanulási útvonal anyagaihoz.
+Magyar nyelvű jegyzetek az <abbr title="Amazon Web Services">AWS</abbr> <abbr title="Artificial intelligence">AI</abbr> Developer tanulási útvonal anyagaihoz.
 
 A rövidítések feloldása megjelenik, ha föléjük viszed az egeret. A teljes lista a [rövidítésszótárban](notes/roviditesek.md) található.
 
