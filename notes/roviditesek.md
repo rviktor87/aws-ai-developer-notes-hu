@@ -72,6 +72,21 @@ A jegyzetekben a rövidítések fölé vitt egérmutató megjeleníti az angol f
 - Angol kifejezés: Retrieval-Augmented Generation
 - Magyar jelentés: visszakereséssel kiegészített generálás
 
+## IAM
+
+- Angol kifejezés: Identity and Access Management
+- Magyar jelentés: identitás- és hozzáférés-kezelés
+
+## VPC
+
+- Angol kifejezés: Virtual private cloud
+- Magyar jelentés: virtuális magánfelhő
+
+## KMS
+
+- Angol kifejezés: Key Management Service
+- Magyar jelentés: kulcskezelési szolgáltatás
+
 ## COIN
 
 - Angol kifejezés: Contract Intelligence
