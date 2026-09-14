@@ -77,6 +77,36 @@ A jegyzetekben a rövidítések fölé vitt egérmutató megjeleníti az angol f
 - Angol kifejezés: Contract Intelligence
 - Magyar jelentés: szerződésintelligencia
 
+## GDPR
+
+- Angol kifejezés: General Data Protection Regulation
+- Magyar jelentés: általános adatvédelmi rendelet
+
+## EEA
+
+- Angol kifejezés: European Economic Area
+- Magyar jelentés: Európai Gazdasági Térség
+
+## CCPA
+
+- Angol kifejezés: California Consumer Privacy Act
+- Magyar jelentés: Kalifornia fogyasztói adatvédelmi törvénye
+
+## ADMT
+
+- Angol kifejezés: Automated Decisionmaking Technology
+- Magyar jelentés: automatizált döntéshozatali technológia
+
+## HIPAA
+
+- Angol kifejezés: Health Insurance Portability and Accountability Act
+- Magyar jelentés: az Egyesült Államok egészségügyi adatok védelmét is szabályozó törvénye
+
+## FCRA
+
+- Angol kifejezés: Fair Credit Reporting Act
+- Magyar jelentés: az Egyesült Államok fogyasztói hitelinformációkra vonatkozó törvénye
+
 ## Használat Markdown-fájlban
 
 ```markdown
