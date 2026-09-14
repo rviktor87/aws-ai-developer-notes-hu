@@ -32,6 +32,7 @@ A rövidítések feloldása megjelenik, ha föléjük viszed az egeret. A teljes
 ## Amazon Bedrock Getting Started
 
 1. [Bevezetés az Amazon Bedrockba](notes/03-amazon-bedrock-getting-started/01-bevezetes-az-amazon-bedrockba.md)
+2. [Az Amazon Bedrock technikai áttekintése](notes/03-amazon-bedrock-getting-started/02-az-amazon-bedrock-technikai-attekintese.md)
 
 [AWS]: notes/roviditesek.md#aws "Amazon Web Services"
 [AI]: notes/roviditesek.md#ai "Artificial intelligence"
